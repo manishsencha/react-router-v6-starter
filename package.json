@@ -17,7 +17,7 @@
     "push" :"git add . && git commit -m 'UI Build' && git push",
     "pushanddeploy":"npm run push && npm run deploy",
     "predeploy": "npm run build",
-    "deploy": "gh-pages-clean gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
